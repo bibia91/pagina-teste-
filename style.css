@@ -16,6 +16,9 @@ body{
     text-align: center;
     font-size: 2em;
     margin-bottom: 30px;
+    box-shadow: 0 10px 10px darkcyan;
+    border-radius: 30px;
+    background-color:lightblue;
 }
 
 .banner{
@@ -35,6 +38,7 @@ body{
     justify-content: space-around;
     margin-bottom: 30px;
 }
+
 .ator{
     text-align: center;
 }
@@ -43,5 +47,34 @@ body{
     width: 100px;
     height: 150px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10%;
+    box-shadow:  0 0 10px rgb(0,139,139);
+}
+
+.titulo-sinopse{
+    font-size: 50px;
+}
+
+.sinopse{
+    font-family: neuton;
+    margin-bottom: 30px;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    font-size: 1.2cm;
+
+}
+
+.site img{
+    width: 120px;
+    height: auto;
+    margin-right: 30px;
+    
+}
+
+.avaliacoes{
+    display: flex;
+    justify-content: space-around;
 }
